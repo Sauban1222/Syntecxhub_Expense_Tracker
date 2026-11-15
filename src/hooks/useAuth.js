@@ -66,7 +66,7 @@ export default function useAuth() {
       password,
       options: {
         data: { full_name: fullName.trim() },
-        emailRedirectTo: window.location.origin,
+        emailRedirectTo: `${window.location.origin}/`,
       },
     });
     if (signUpError) throw signUpError;
@@ -77,7 +77,7 @@ export default function useAuth() {
     if (!supabase) throw new Error('Supabase authentication is not configured.');
     setError('');
     const { error: resetError } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: window.location.origin,
+      redirectTo: `${window.location.origin}/`,
     });
     if (resetError) throw resetError;
   }, []);
