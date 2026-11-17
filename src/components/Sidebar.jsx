@@ -33,7 +33,7 @@ export default function Sidebar({
       {isOpen && <button className="sidebar-backdrop" onClick={onClose} aria-label="Close navigation" />}
       <aside className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
         <div className="brand-row">
-          <div className="brand-mark"><WalletCards size={21} strokeWidth={2.2} /></div>
+          <div className="brand-mark"><img src="/spendly-logo.svg" alt="" width="34" height="34" /></div>
           <div className="brand-copy">
             <span className="brand-name">spendly<span>.</span></span>
             <span className="brand-tagline">Smart Money. Better Decisions.</span>

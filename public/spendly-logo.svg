@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="spendly-gradient" x1="8" y1="7" x2="56" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8178FF"/>
+      <stop offset="1" stop-color="#6258E8"/>
+    </linearGradient>
+    <linearGradient id="spendly-shine" x1="17" y1="15" x2="49" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".98"/>
+      <stop offset="1" stop-color="#E9E7FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="19" fill="url(#spendly-gradient)"/>
+  <path d="M17 25.5c0-3.59 2.91-6.5 6.5-6.5h17A6.5 6.5 0 0 1 47 25.5V28h1.5a4.5 4.5 0 0 1 4.5 4.5v9a4.5 4.5 0 0 1-4.5 4.5h-25a6.5 6.5 0 0 1-6.5-6.5v-14Z" fill="url(#spendly-shine)"/>
+  <path d="M17 28h31.5a4.5 4.5 0 0 1 4.5 4.5v9a4.5 4.5 0 0 1-4.5 4.5h-25a6.5 6.5 0 0 1-6.5-6.5V28Z" fill="#fff" fill-opacity=".72"/>
+  <path d="M42 35h7" stroke="#6C63FF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="42" cy="35" r="2" fill="#6C63FF"/>
+  <path d="M23 18.5h16.5a6.5 6.5 0 0 1 6.5 6.5v3" stroke="#fff" stroke-opacity=".72" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

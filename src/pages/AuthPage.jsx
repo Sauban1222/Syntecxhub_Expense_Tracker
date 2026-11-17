@@ -9,7 +9,6 @@ import {
   Mail,
   ShieldCheck,
   UserRound,
-  WalletCards,
 } from 'lucide-react';
 
 const pageCopy = {
@@ -125,7 +124,7 @@ export default function AuthPage({
       <div className="auth-orb auth-orb-one" />
       <div className="auth-orb auth-orb-two" />
       <header className="auth-brand">
-        <div className="auth-brand-mark"><WalletCards size={21} /></div>
+        <div className="auth-brand-mark"><img src="/spendly-logo.svg" alt="" width="39" height="39" /></div>
         <div>
           <strong>spendly<span>.</span></strong>
           <small>Smart Money. Better Decisions.</small>
